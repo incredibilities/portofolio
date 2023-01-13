@@ -33,7 +33,7 @@ export default function HomePage() {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `eu sunt sasacelrealul`;
+	const description = `Iustin m6 MAFIA MGK 888`;
 
 
 	return (
@@ -49,8 +49,8 @@ export default function HomePage() {
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
 						SALUT COAIE <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
-						SUNT&apos;IUSTIN, <br className="hidden sm:block" />UN{' '}
-						<Pill.Standard className="mt-4">CACAT</Pill.Standard>
+						SUNT IUSTIN, <br className="hidden sm:block" />UN{' '}
+						<Pill.Standard className="mt-4">m6 mafia MGK 999</Pill.Standard>
 					</Animate>
 
 
@@ -91,7 +91,7 @@ export default function HomePage() {
 									}}>
 									<Button.Outline href={action.href}>
 										{action.icon}
-										<span>IUSTIN E GAY</span>
+										<span>IUSTIN E MEMBRU M6</span>
 									</Button.Outline>
 								</Animate>
 							);

@@ -37,7 +37,7 @@ export default function HomePage() {
 
 
 	return (
-		<Layout.Default seo={{ title: 'bhop ─ developer' }}>
+		<Layout.Default seo={{ title: 'IUSTIN - CACACIOS' }}>
 			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<div className="min-h-screen flex items-center justify-center py-12">
 				<div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
@@ -48,9 +48,9 @@ export default function HomePage() {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
-						I&apos;m bhop, <br className="hidden sm:block" />a{' '}
-						<Pill.Standard className="mt-4">cool guy</Pill.Standard>
+						SALUT COAIE <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
+						SUNT&apos;IUSTIN, <br className="hidden sm:block" />UN{' '}
+						<Pill.Standard className="mt-4">CACAT</Pill.Standard>
 					</Animate>
 
 
@@ -91,7 +91,7 @@ export default function HomePage() {
 									}}>
 									<Button.Outline href={action.href}>
 										{action.icon}
-										<span>{action.text}</span>
+										<span>IUSTIN E GAY</span>
 									</Button.Outline>
 								</Animate>
 							);
